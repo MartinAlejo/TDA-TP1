@@ -1,34 +1,47 @@
-def main():
-    # with open("./ejemplos/20.txt", "r") as archivo:
-    arr = [72,165,794,892,880,341,882,570,679,725,979,375,459,603,112,436,587,699,681,83]
-    #arr = [406,691,451,628,950,324,906,34,345,647,589,585,728,338,598,362,999,227,248,863,852,344,166,153,778]
-    #arr = [783,914,682,132,161,875,762,779,915,529,276,252,482,519,415,533,14,628,695,874,180,571,764,763,272,770,307,431,226,20,735,229,22,414,825,857,169,840,242,325,564,481,342,308,610,780,528,912,915,542]
-    turno = 0 # turno par sofia, impar mateo
+import csv
 
+# Dada una lista con monedas, devuelve con cuanto gano sofia el juego
+def juego_monedas(monedas):
+    turno = 0 # Los turnos pares son de Sofia, los impares de Mateo
     i = 0
-    j = len(arr) - 1
+    j = len(monedas) - 1
 
-    sumatoria_sofia = 0
-    sumatoria_mateo = 0
+    acum_sofia = 0
+    acum_mateo = 0
     while not i > j:
-        moneda1 = arr[i]
-        moneda2 = arr[j]
+        moneda1 = monedas[i]
+        moneda2 = monedas[j]
         if turno % 2 == 0:
             if moneda1 > moneda2:
-                sumatoria_sofia += moneda1
+                acum_sofia += moneda1
                 i += 1
             else:
-                sumatoria_sofia += moneda2
+                acum_sofia += moneda2
                 j -= 1
         else:
             if moneda1 < moneda2:
-                sumatoria_mateo += moneda1
+                acum_mateo += moneda1
                 i += 1
             else:
-                sumatoria_mateo += moneda2
+                acum_mateo += moneda2
                 j -= 1
         turno += 1
 
-    print(sumatoria_sofia)
+    return acum_sofia
 
-main()
+# Dado un archivo csv, devuelve una lista con las monedas
+def obtener_monedas(path, delimiter):
+    monedas = []
+    with open(path, "r") as f:
+        csv_reader = csv.reader(f, delimiter=delimiter)
+        next(csv_reader) # para saltear el comentario que esta al principio de los ejemplos. TODO: Quiza quitar
+        for l in csv_reader:
+            monedas = [int(moneda) for moneda in l]
+    return monedas
+
+def main(path):
+    monedas = obtener_monedas(path, ";")
+    acum_sofia = juego_monedas(monedas)
+    print(acum_sofia)
+
+main("./ejemplos/20.txt")
