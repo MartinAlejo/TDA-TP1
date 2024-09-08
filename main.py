@@ -1,33 +1,38 @@
 import csv
 
-# Dada una lista con monedas, devuelve con cuanto gano sofia el juego
+# Dada una lista con monedas, devuelve una lista de movimientos y con cuanto gano Sophia el juego
 def juego_monedas(monedas):
-    turno = 0 # Los turnos pares son de Sofia, los impares de Mateo
+    turno = 0 # Los turnos pares son de Sophia, los impares de Mateo
     i = 0
     j = len(monedas) - 1
 
     acum_sophia = 0
     acum_mateo = 0
-    while i < j:
-        moneda1 = monedas[i]
-        moneda2 = monedas[j]
+    movimientos = []
+    while not (i > j):
+        primera_moneda = monedas[i]
+        ultima_moneda = monedas[j]
         if turno % 2 == 0:
-            if moneda1 > moneda2:
-                acum_sophia += moneda1
+            if primera_moneda > ultima_moneda:
+                acum_sophia += primera_moneda
                 i += 1
+                movimientos.append("Primera moneda para Sophia")
             else:
-                acum_sophia += moneda2
+                acum_sophia += ultima_moneda
                 j -= 1
+                movimientos.append("Última moneda para Sophia")
         else:
-            if moneda1 < moneda2:
-                acum_mateo += moneda1
+            if primera_moneda < ultima_moneda:
+                acum_mateo += primera_moneda
                 i += 1
+                movimientos.append("Primera moneda para Mateo")
             else:
-                acum_mateo += moneda2
+                acum_mateo += ultima_moneda
                 j -= 1
+                movimientos.append("Última moneda para Mateo")
         turno += 1
 
-    return acum_sophia
+    return movimientos, acum_sophia
 
 # Dado un archivo csv, devuelve una lista con las monedas
 def obtener_monedas(path, delimiter):
@@ -40,7 +45,14 @@ def obtener_monedas(path, delimiter):
 
 def main(path):
     monedas = obtener_monedas(path, ";")
-    acum_sophia = juego_monedas(monedas)
+    movimientos, acum_sophia = juego_monedas(monedas)
+    print("; ".join(movimientos))
     print("Ganancia de Sophia: " + str(acum_sophia))
 
 main("./ejemplos/20.txt")
+# main("./ejemplos/25.txt")
+# main("./ejemplos/50.txt")
+# main("./ejemplos/100.txt")
+# main("./ejemplos/1000.txt")
+# main("./ejemplos/10000.txt")
+# main("./ejemplos/20000.txt")
