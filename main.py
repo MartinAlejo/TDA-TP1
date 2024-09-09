@@ -49,7 +49,8 @@ def main(path):
     print("; ".join(movimientos))
     print("Ganancia de Sophia: " + str(acum_sophia))
 
-main("./ejemplos/20.txt")
+# TODO: Borrar cuando terminemos
+# main("./ejemplos/20.txt")
 # main("./ejemplos/25.txt")
 # main("./ejemplos/50.txt")
 # main("./ejemplos/100.txt")
