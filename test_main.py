@@ -2,9 +2,32 @@ from main import *
 
 def test_20_monedas():
     monedas = obtener_monedas("./ejemplos/20.txt", ";")
-    _, acum_sophia = juego_monedas(monedas)
+    movimientos_esperados = [ # TODO: Usar un archivo en vez de escribirlo asi
+        "Última moneda para Sophia",
+        "Primera moneda para Mateo",
+        "Última moneda para Sophia",
+        "Primera moneda para Mateo",
+        "Primera moneda para Sophia",
+        "Última moneda para Mateo",
+        "Primera moneda para Sophia",
+        "Última moneda para Mateo",
+        "Primera moneda para Sophia",
+        "Primera moneda para Mateo",
+        "Primera moneda para Sophia",
+        "Última moneda para Mateo",
+        "Primera moneda para Sophia",
+        "Última moneda para Mateo",
+        "Primera moneda para Sophia",
+        "Última moneda para Mateo",
+        "Primera moneda para Sophia",
+        "Última moneda para Mateo",
+        "Primera moneda para Sophia",
+        "Última moneda para Mateo"
+    ]
 
-    assert acum_sophia == 7165
+    movimientos, acum_sophia = juego_monedas(monedas)
+
+    assert acum_sophia == 7165 and movimientos == movimientos_esperados
 
 def test_25_monedas():
     monedas = obtener_monedas("./ejemplos/25.txt", ";")
@@ -42,16 +65,16 @@ def test_20000_monedas():
 
     assert acum_sophia == 7139357
 
-## MAIN TEST ##
+def test_monedas_negativas():
+    monedas = obtener_monedas("./ejemplos/monedas_positivas_y_negativas.txt", ";")
+    movimientos_esperados = [
+        "Primera moneda para Sophia", 
+        "Última moneda para Mateo", 
+        "Última moneda para Sophia",
+        "Última moneda para Mateo",
+        "Última moneda para Sophia"
+    ]
 
-def test_main():
-    # TODO: Probar los movimientos
-    test_20_monedas()
-    test_25_monedas()
-    test_50_monedas()
-    test_100_monedas()
-    test_1000_monedas()
-    test_10000_monedas()
-    test_20000_monedas()
+    movimientos, acum_sophia = juego_monedas(monedas)
 
-test_main()
+    assert acum_sophia == 7 and movimientos == movimientos_esperados
