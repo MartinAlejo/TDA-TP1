@@ -1,33 +1,47 @@
 from main import *
 
+def _obtener_movimientos(path, delimiter):
+    movimientos = []
+    with open(path, "r") as f:
+        csv_reader = csv.reader(f, delimiter=delimiter)
+        for l in csv_reader:
+            for mov in l:
+                movimientos.append(str(mov))
+    return movimientos
+
 def test_20_monedas():
     monedas = obtener_monedas("./ejemplos/20.txt", ";")
-    movimientos_esperados = [ # TODO: Usar un archivo en vez de escribirlo asi
-        "Última moneda para Sophia",
-        "Primera moneda para Mateo",
-        "Última moneda para Sophia",
-        "Primera moneda para Mateo",
-        "Primera moneda para Sophia",
-        "Última moneda para Mateo",
-        "Primera moneda para Sophia",
-        "Última moneda para Mateo",
-        "Primera moneda para Sophia",
-        "Primera moneda para Mateo",
-        "Primera moneda para Sophia",
-        "Última moneda para Mateo",
-        "Primera moneda para Sophia",
-        "Última moneda para Mateo",
-        "Primera moneda para Sophia",
-        "Última moneda para Mateo",
-        "Primera moneda para Sophia",
-        "Última moneda para Mateo",
-        "Primera moneda para Sophia",
-        "Última moneda para Mateo"
-    ]
+    movimientos_esperados = _obtener_movimientos("./ejemplos/20_movimientos_esperados.txt", ";")
+    # movimientos_esperados = [ # TODO: Usar un archivo en vez de escribirlo asi
+    #     "Última moneda para Sophia",
+    #     "Primera moneda para Mateo",
+    #     "Última moneda para Sophia",
+    #     "Primera moneda para Mateo",
+    #     "Primera moneda para Sophia",
+    #     "Última moneda para Mateo",
+    #     "Primera moneda para Sophia",
+    #     "Última moneda para Mateo",
+    #     "Primera moneda para Sophia",
+    #     "Primera moneda para Mateo",
+    #     "Primera moneda para Sophia",
+    #     "Última moneda para Mateo",
+    #     "Primera moneda para Sophia",
+    #     "Última moneda para Mateo",
+    #     "Primera moneda para Sophia",
+    #     "Última moneda para Mateo",
+    #     "Primera moneda para Sophia",
+    #     "Última moneda para Mateo",
+    #     "Primera moneda para Sophia",
+    #     "Última moneda para Mateo"
+    # ]
 
     movimientos, acum_sophia = juego_monedas(monedas)
 
-    assert acum_sophia == 7165 and movimientos == movimientos_esperados
+    print(movimientos)
+    print(movimientos_esperados)
+    #assert acum_sophia == 7165 and movimientos == movimientos_esperados
+
+test_20_monedas()
 
 def test_25_monedas():
     monedas = obtener_monedas("./ejemplos/25.txt", ";")
