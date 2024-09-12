@@ -46,9 +46,12 @@ def obtener_monedas(path, delimiter):
 
 def main(path):
     monedas = obtener_monedas(path, ";")
-    movimientos, acum_sophia = juego_monedas(monedas)
-    print("; ".join(movimientos))
+    movimientos, acum_sophia, acum_mateo = juego_monedas(monedas)
+
+    print("Suma total de monedas: " + str(sum(monedas)))
     print("Ganancia de Sophia: " + str(acum_sophia))
+    print("Ganancia de Mateo: " + str(acum_mateo))
+    print("; ".join(movimientos))
 
 # TODO: Borrar cuando terminemos
 # main("./ejemplos/20.txt")
