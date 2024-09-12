@@ -32,10 +32,10 @@ def test_50_monedas():
 
 def test_100_monedas():
     monedas = obtener_monedas("./ejemplos/100.txt", ";")
-    #movimientos_esperados = _obtener_movimientos("./ejemplos/100_movimientos_esperados.txt", ";")
+    movimientos_esperados = _obtener_movimientos("./ejemplos/100_movimientos_esperados.txt", ";")
     movimientos, acum_sophia = juego_monedas(monedas)
 
-    assert acum_sophia == 35009 #and movimientos == movimientos_esperados # TODO: ERROR (VER)
+    assert acum_sophia == 35009 and movimientos == movimientos_esperados
 
 def test_1000_monedas():
     monedas = obtener_monedas("./ejemplos/1000.txt", ";")
@@ -59,6 +59,22 @@ def test_20000_monedas():
     assert acum_sophia == 7139357 and movimientos == movimientos_esperados
 
 def test_monedas_negativas():
+    # Se podria considerar como un caso de que ahora hubiesen "deudas" (monedas negativas)
+    monedas = obtener_monedas("./ejemplos/monedas_negativas.txt", ";")
+    movimientos_esperados = [
+        "Última moneda para Sophia",
+        "Primera moneda para Mateo",
+        "Primera moneda para Sophia",
+        "Primera moneda para Mateo",
+        "Primera moneda para Sophia",
+        "Última moneda para Mateo"
+    ]
+    movimientos, acum_sophia = juego_monedas(monedas)
+
+    assert acum_sophia == -6 and movimientos == movimientos_esperados
+
+
+def test_monedas_positivas_y_negativas():
     monedas = obtener_monedas("./ejemplos/monedas_positivas_y_negativas.txt", ";")
     movimientos_esperados = [
         "Primera moneda para Sophia", 
