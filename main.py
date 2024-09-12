@@ -1,6 +1,7 @@
 import csv
 
-# Dada una lista con monedas, devuelve una lista de movimientos y con cuanto gano Sophia el juego
+# Dada una lista con monedas, devuelve una lista con los movimientos y las puntuaciones, asegurandose
+# de que se Sophia siempre gana el juego
 def juego_monedas(monedas):
     turno = 0 # Los turnos pares son de Sophia, los impares de Mateo
     i = 0
@@ -32,7 +33,7 @@ def juego_monedas(monedas):
                 movimientos.append("Última moneda para Mateo")
         turno += 1
 
-    return movimientos, acum_sophia
+    return movimientos, acum_sophia, acum_mateo
 
 # Dado un archivo csv, devuelve una lista con las monedas
 def obtener_monedas(path, delimiter):
