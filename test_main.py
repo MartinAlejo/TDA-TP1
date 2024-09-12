@@ -14,12 +14,7 @@ def test_20_monedas():
     movimientos_esperados = _obtener_movimientos("./ejemplos/20_movimientos_esperados.txt", ";")
     movimientos, acum_sophia = juego_monedas(monedas)
 
-    print(movimientos_esperados)
-    print(movimientos)
-
-    #assert acum_sophia == 7165 and movimientos == movimientos_esperados
-
-test_20_monedas()
+    assert acum_sophia == 7165 and movimientos == movimientos_esperados
 
 def test_25_monedas():
     monedas = obtener_monedas("./ejemplos/25.txt", ";")
