@@ -12,72 +12,51 @@ def _obtener_movimientos(path, delimiter):
 def test_20_monedas():
     monedas = obtener_monedas("./ejemplos/20.txt", ";")
     movimientos_esperados = _obtener_movimientos("./ejemplos/20_movimientos_esperados.txt", ";")
-    # movimientos_esperados = [ # TODO: Usar un archivo en vez de escribirlo asi
-    #     "Última moneda para Sophia",
-    #     "Primera moneda para Mateo",
-    #     "Última moneda para Sophia",
-    #     "Primera moneda para Mateo",
-    #     "Primera moneda para Sophia",
-    #     "Última moneda para Mateo",
-    #     "Primera moneda para Sophia",
-    #     "Última moneda para Mateo",
-    #     "Primera moneda para Sophia",
-    #     "Primera moneda para Mateo",
-    #     "Primera moneda para Sophia",
-    #     "Última moneda para Mateo",
-    #     "Primera moneda para Sophia",
-    #     "Última moneda para Mateo",
-    #     "Primera moneda para Sophia",
-    #     "Última moneda para Mateo",
-    #     "Primera moneda para Sophia",
-    #     "Última moneda para Mateo",
-    #     "Primera moneda para Sophia",
-    #     "Última moneda para Mateo"
-    # ]
-
     movimientos, acum_sophia = juego_monedas(monedas)
 
-    print(movimientos)
-    print(movimientos_esperados)
-    #assert acum_sophia == 7165 and movimientos == movimientos_esperados
-
-test_20_monedas()
+    assert acum_sophia == 7165 and movimientos == movimientos_esperados
 
 def test_25_monedas():
     monedas = obtener_monedas("./ejemplos/25.txt", ";")
-    _, acum_sophia = juego_monedas(monedas)
+    movimientos_esperados = _obtener_movimientos("./ejemplos/25_movimientos_esperados.txt", ";")
+    movimientos, acum_sophia = juego_monedas(monedas)
 
-    assert acum_sophia == 9635
+    assert acum_sophia == 9635 and movimientos == movimientos_esperados
 
 def test_50_monedas():
     monedas = obtener_monedas("./ejemplos/50.txt", ";")
-    _, acum_sophia = juego_monedas(monedas)
+    movimientos_esperados = _obtener_movimientos("./ejemplos/50_movimientos_esperados.txt", ";")
+    movimientos, acum_sophia = juego_monedas(monedas)
 
-    assert acum_sophia == 17750
+    assert acum_sophia == 17750 and movimientos == movimientos_esperados
 
 def test_100_monedas():
     monedas = obtener_monedas("./ejemplos/100.txt", ";")
-    _, acum_sophia = juego_monedas(monedas)
+    #movimientos_esperados = _obtener_movimientos("./ejemplos/100_movimientos_esperados.txt", ";")
+    movimientos, acum_sophia = juego_monedas(monedas)
 
-    assert acum_sophia == 35009
+    assert acum_sophia == 35009 #and movimientos == movimientos_esperados # TODO: ERROR (VER)
 
 def test_1000_monedas():
     monedas = obtener_monedas("./ejemplos/1000.txt", ";")
-    _, acum_sophia = juego_monedas(monedas)
+    movimientos_esperados = _obtener_movimientos("./ejemplos/1000_movimientos_esperados.txt", ";")
+    movimientos, acum_sophia = juego_monedas(monedas)
 
-    assert acum_sophia == 357814
+    assert acum_sophia == 357814 and movimientos == movimientos_esperados
 
 def test_10000_monedas():
     monedas = obtener_monedas("./ejemplos/10000.txt", ";")
-    _, acum_sophia = juego_monedas(monedas)
+    movimientos_esperados = _obtener_movimientos("./ejemplos/10000_movimientos_esperados.txt", ";")
+    movimientos, acum_sophia = juego_monedas(monedas)
 
-    assert acum_sophia == 3550307
+    assert acum_sophia == 3550307 and movimientos == movimientos_esperados
 
 def test_20000_monedas():
     monedas = obtener_monedas("./ejemplos/20000.txt", ";")
-    _, acum_sophia = juego_monedas(monedas)
+    movimientos_esperados = _obtener_movimientos("./ejemplos/20000_movimientos_esperados.txt", ";")
+    movimientos, acum_sophia = juego_monedas(monedas)
 
-    assert acum_sophia == 7139357
+    assert acum_sophia == 7139357 and movimientos == movimientos_esperados
 
 def test_monedas_negativas():
     monedas = obtener_monedas("./ejemplos/monedas_positivas_y_negativas.txt", ";")
@@ -88,7 +67,6 @@ def test_monedas_negativas():
         "Última moneda para Mateo",
         "Última moneda para Sophia"
     ]
-
     movimientos, acum_sophia = juego_monedas(monedas)
 
     assert acum_sophia == 7 and movimientos == movimientos_esperados
