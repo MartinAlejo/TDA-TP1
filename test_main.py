@@ -94,3 +94,11 @@ def test_monedas_positivas_y_negativas():
 
     assert acum_sophia > acum_mateo
     assert acum_sophia == 7 and movimientos == movimientos_esperados
+
+def test_6_monedas():
+    monedas = obtener_monedas("./ejemplos/6.txt", ";")
+    movimientos_esperados = _obtener_movimientos("./ejemplos/6_movimientos_esperados.txt", ";")
+    movimientos, acum_sophia, acum_mateo = juego_monedas(monedas)
+
+    assert acum_sophia > acum_mateo
+    assert acum_sophia == 26 and movimientos == movimientos_esperados
