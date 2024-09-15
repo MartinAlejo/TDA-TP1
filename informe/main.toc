@@ -1,8 +1,8 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {section}{\numberline {1}Algoritmo greedy para la resolución del problema}{4}{section.1}%
 \contentsline {section}{\numberline {2}Demostración del Algortimo}{4}{section.2}%
-\contentsline {section}{\numberline {3}Algoritmo planteado y complejidad}{4}{section.3}%
-\contentsline {section}{\numberline {4}Variabilidad}{5}{section.4}%
-\contentsline {section}{\numberline {5}Ejemplos de solución}{5}{section.5}%
-\contentsline {section}{\numberline {6}Medición empírica}{5}{section.6}%
-\contentsline {section}{\numberline {7}Conclusiones}{5}{section.7}%
+\contentsline {section}{\numberline {3}Algoritmo planteado y complejidad}{6}{section.3}%
+\contentsline {section}{\numberline {4}Variabilidad}{7}{section.4}%
+\contentsline {section}{\numberline {5}Ejemplos de solución}{7}{section.5}%
+\contentsline {section}{\numberline {6}Medición empírica}{7}{section.6}%
+\contentsline {section}{\numberline {7}Conclusiones}{7}{section.7}%
