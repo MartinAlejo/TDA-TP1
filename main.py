@@ -1,4 +1,5 @@
 import csv
+import sys
 
 # Dada una lista con monedas, devuelve una lista con los movimientos y las puntuaciones, asegurandose
 # de que se Sophia siempre gana el juego
@@ -51,13 +52,11 @@ def main(path):
     print("Suma total de monedas: " + str(sum(monedas)))
     print("Ganancia de Sophia: " + str(acum_sophia))
     print("Ganancia de Mateo: " + str(acum_mateo))
-    print("; ".join(movimientos))
+    print("Movimientos: " + "; ".join(movimientos))
 
-# TODO: Borrar cuando terminemos
-# main("./ejemplos/20.txt")
-# main("./ejemplos/25.txt")
-# main("./ejemplos/50.txt")
-# main("./ejemplos/100.txt")
-# main("./ejemplos/1000.txt")
-# main("./ejemplos/10000.txt")
-# main("./ejemplos/20000.txt")
+if __name__ ==  '__main__':
+    path = sys.argv[1]
+    main(path)
+
+# Ejemplo de ejecucion:
+# python3 main.py ./ejemplos/20.txt
