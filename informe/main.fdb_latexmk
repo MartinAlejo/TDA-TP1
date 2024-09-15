@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber main"] 1726360704 "main.bcf" "main.bbl" "main" 1726373363
-  "main.bcf" 1726373362 106594 d0a4d0e1c136c0a864bb82402f3a8ea5 "pdflatex"
+["biber main"] 1726360704 "main.bcf" "main.bbl" "main" 1726374917
+  "main.bcf" 1726374917 106594 d0a4d0e1c136c0a864bb82402f3a8ea5 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1726373361 "/home/martin/TDA/TP1/informe/main.tex" "main.pdf" "main" 1726373363
+["pdflatex"] 1726374916 "/home/martin/TDA/TP1/informe/main.tex" "main.pdf" "main" 1726374917
   "/etc/texmf/web2c/texmf.cnf" 1726336337 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/martin/TDA/TP1/informe/main.tex" 1726103785 2615 01aabc6df2e873197802c0cbc46330cd ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -225,14 +225,14 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1726357724 2801369 415556cc82002c3c81e12ca841853aee ""
   "estilo.cls" 1726103785 3846 e31efb112e5e3e376ce0e67d2a26322a ""
   "logo.pdf" 1726103785 23517 55dcbdbcb3a7201e9413943da9c8afa3 ""
-  "main.atfi" 1726373362 23 33e109ecf84d2ac55814cb2442ea01dc "pdflatex"
-  "main.aux" 1726373362 1904 e48f77884048505531fab233cf725a92 "pdflatex"
+  "main.atfi" 1726374917 23 33e109ecf84d2ac55814cb2442ea01dc "pdflatex"
+  "main.aux" 1726374917 1904 e48f77884048505531fab233cf725a92 "pdflatex"
   "main.bbl" 1726360704 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
-  "main.out" 1726373362 1198 bdf3fdf0bdea8e64b3f35873b46daaf3 "pdflatex"
-  "main.run.xml" 1726373362 2274 3c9efbcb7467da793e6933a55675e6bc "pdflatex"
+  "main.out" 1726374917 1198 bdf3fdf0bdea8e64b3f35873b46daaf3 "pdflatex"
+  "main.run.xml" 1726374917 2274 3c9efbcb7467da793e6933a55675e6bc "pdflatex"
   "main.tex" 1726103785 2615 01aabc6df2e873197802c0cbc46330cd ""
-  "main.toc" 1726373362 595 625c788822729eb1c215d08da75e1927 "pdflatex"
-  "tex/algoritmos.tex" 1726373288 973 480c764c112a108fe1bb9a4269d7f9c6 ""
+  "main.toc" 1726374917 595 625c788822729eb1c215d08da75e1927 "pdflatex"
+  "tex/algoritmos.tex" 1726374916 996 bf07e5c7abe32ad86b563d514763f32b ""
   "tex/complejidad.tex" 1726373361 1699 9b5d604f1f8a8d0133a81f53fd590801 ""
   "tex/conclusiones.tex" 1726359806 79 d15a43385b6fc79a9e9db159dabbae14 ""
   "tex/consigna.tex" 1726103785 2917 82896a45201c667961ff4166b437c1f6 ""
