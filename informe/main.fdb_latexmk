@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber main"] 1726360704 "main.bcf" "main.bbl" "main" 1726363847
-  "main.bcf" 1726363847 106594 d0a4d0e1c136c0a864bb82402f3a8ea5 "pdflatex"
+["biber main"] 1726360704 "main.bcf" "main.bbl" "main" 1726368082
+  "main.bcf" 1726368082 106594 d0a4d0e1c136c0a864bb82402f3a8ea5 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1726363846 "/home/martin/TDA/TP1/informe/main.tex" "main.pdf" "main" 1726363847
+["pdflatex"] 1726368081 "/home/martin/TDA/TP1/informe/main.tex" "main.pdf" "main" 1726368082
   "/etc/texmf/web2c/texmf.cnf" 1726336337 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/martin/TDA/TP1/informe/main.tex" 1726103785 2615 01aabc6df2e873197802c0cbc46330cd ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -225,15 +225,15 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1726357724 2801369 415556cc82002c3c81e12ca841853aee ""
   "estilo.cls" 1726103785 3846 e31efb112e5e3e376ce0e67d2a26322a ""
   "logo.pdf" 1726103785 23517 55dcbdbcb3a7201e9413943da9c8afa3 ""
-  "main.atfi" 1726363847 23 33e109ecf84d2ac55814cb2442ea01dc "pdflatex"
-  "main.aux" 1726363847 1904 a7188dc9f891c6a8dc9a8b8375a4ad6f "pdflatex"
+  "main.atfi" 1726368082 23 33e109ecf84d2ac55814cb2442ea01dc "pdflatex"
+  "main.aux" 1726368082 1904 e48f77884048505531fab233cf725a92 "pdflatex"
   "main.bbl" 1726360704 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
-  "main.out" 1726363847 1198 bdf3fdf0bdea8e64b3f35873b46daaf3 "pdflatex"
-  "main.run.xml" 1726363847 2274 3c9efbcb7467da793e6933a55675e6bc "pdflatex"
+  "main.out" 1726368082 1198 bdf3fdf0bdea8e64b3f35873b46daaf3 "pdflatex"
+  "main.run.xml" 1726368082 2274 3c9efbcb7467da793e6933a55675e6bc "pdflatex"
   "main.tex" 1726103785 2615 01aabc6df2e873197802c0cbc46330cd ""
-  "main.toc" 1726363847 595 456333659fcfdd99a977397e2655e66f "pdflatex"
-  "tex/algoritmos.tex" 1726103785 60 938a20dc80aa6793be73aed4b4fcd185 ""
-  "tex/complejidad.tex" 1726363846 1170 718ee9e3ac6c2448783e2f820cc22859 ""
+  "main.toc" 1726368082 595 625c788822729eb1c215d08da75e1927 "pdflatex"
+  "tex/algoritmos.tex" 1726368081 973 f7b3bee33e35e2ca884404bc60ea0d17 ""
+  "tex/complejidad.tex" 1726365285 1698 cdfdfb3f6f0ffab1e88de49bd9375e96 ""
   "tex/conclusiones.tex" 1726359806 79 d15a43385b6fc79a9e9db159dabbae14 ""
   "tex/consigna.tex" 1726103785 2917 82896a45201c667961ff4166b437c1f6 ""
   "tex/demostracion.tex" 1726103785 37 9e32aa8b658dfdc0ee8f1a4eebbe51e3 ""

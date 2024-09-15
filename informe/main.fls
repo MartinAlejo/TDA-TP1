@@ -1528,6 +1528,9 @@ INPUT tex/conclusiones.tex
 INPUT ./logo.pdf
 INPUT logo.pdf
 INPUT ./logo.pdf
+INPUT ./logo.pdf
+INPUT logo.pdf
+INPUT ./logo.pdf
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
