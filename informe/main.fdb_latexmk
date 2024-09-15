@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber main"] 1726421161.55306 "main.bcf" "main.bbl" "main" 1726421165.4373 0
-  "main.bcf" 1726421165.32557 107310 44c5f0f359c2f2f31fe3b9a601a07c9e "pdflatex"
+["biber main"] 1726421161.55306 "main.bcf" "main.bbl" "main" 1726423524.99235 0
+  "main.bcf" 1726423524.88273 107310 44c5f0f359c2f2f31fe3b9a601a07c9e "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1726421164.1772 "/Users/denisedallacqua/Desktop/TDA/TDA-TP1/informe/main.tex" "main.pdf" "main" 1726421165.43763 0
+["pdflatex"] 1726423523.72521 "/Users/denisedallacqua/Desktop/TDA/TDA-TP1/informe/main.tex" "main.pdf" "main" 1726423524.99265 0
   "/Users/denisedallacqua/Desktop/TDA/TDA-TP1/informe/main.tex" 1726411830.06977 2615 01aabc6df2e873197802c0cbc46330cd ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -237,21 +237,21 @@
   "images/IMG_1628.jpg" 1726416650 58846 b1ddd93141c3f7b5be10a8c0a68dc3e9 ""
   "images/IMG_1629.jpg" 1726418056 79173 508d8bec57512e71c7ff94bb9aa52c91 ""
   "logo.pdf" 1726411830.06709 23517 55dcbdbcb3a7201e9413943da9c8afa3 ""
-  "main.atfi" 1726421165.32626 23 33e109ecf84d2ac55814cb2442ea01dc "pdflatex"
-  "main.aux" 1726421165.32256 1388 26b49c5837a96eda53bd2e9bb01d070e "pdflatex"
+  "main.atfi" 1726423524.88382 23 33e109ecf84d2ac55814cb2442ea01dc "pdflatex"
+  "main.aux" 1726423524.88001 1388 26b49c5837a96eda53bd2e9bb01d070e "pdflatex"
   "main.bbl" 1726421164.11077 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
-  "main.out" 1726421165.32469 1198 bdf3fdf0bdea8e64b3f35873b46daaf3 "pdflatex"
-  "main.run.xml" 1726421165.3262 2274 3c9efbcb7467da793e6933a55675e6bc "pdflatex"
+  "main.out" 1726423524.8819 1198 bdf3fdf0bdea8e64b3f35873b46daaf3 "pdflatex"
+  "main.run.xml" 1726423524.88376 2274 3c9efbcb7467da793e6933a55675e6bc "pdflatex"
   "main.tex" 1726411830.06977 2615 01aabc6df2e873197802c0cbc46330cd ""
-  "main.toc" 1726421165.32628 595 ab18c3798ef075611b3f3b16c4638135 "pdflatex"
-  "tex/algoritmos.tex" 1726420990.44229 996 bf07e5c7abe32ad86b563d514763f32b ""
-  "tex/complejidad.tex" 1726411830.07047 1699 9b5d604f1f8a8d0133a81f53fd590801 ""
+  "main.toc" 1726423524.88385 595 ab18c3798ef075611b3f3b16c4638135 "pdflatex"
+  "tex/algoritmos.tex" 1726421642.56278 997 7e9a510da72254cb48dc987a811600f9 ""
+  "tex/complejidad.tex" 1726422356.5862 1172 a7ccb0775e58226847ee515190f483d2 ""
   "tex/conclusiones.tex" 1726411830.07057 79 d15a43385b6fc79a9e9db159dabbae14 ""
   "tex/consigna.tex" 1726411830.07068 2917 82896a45201c667961ff4166b437c1f6 ""
   "tex/demostracion.tex" 1726420646.20195 3889 503326f143d5f6cde8cf0892e14b1443 ""
   "tex/ejemplosDeSolucion.tex" 1726411830.07084 31 8b8bd08b32482156ad75539119f37811 ""
   "tex/medicionEmpirica.tex" 1726411830.07091 32 e9351a51ed68e01fd17d9227f38e1004 ""
-  "tex/variabilidad.tex" 1726411830.07099 22 a4c9fc7b253d86fa95f68c7776625f70 ""
+  "tex/variabilidad.tex" 1726423523.51279 1031 0bc2854e1b278d41c3cfe2c56cbea193 ""
   (generated)
   "main.atfi"
   "main.aux"
