@@ -9,7 +9,7 @@ TP1 de la materia: Teoría de Algoritmos.
 - Nicolas Agustin Riedel - 102130
 
 ## Informe
-El informe del trabajo se puede encontrar [en este repositorio](./Informe.pdf)
+El informe del trabajo se puede encontrar [en este repositorio](./Informe.pdf).
 
 ## Ejecución
 
