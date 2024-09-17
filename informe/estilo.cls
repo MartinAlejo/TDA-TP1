@@ -77,7 +77,7 @@
 
 \renewcommand{\headrulewidth}{1pt}
 \renewcommand{\footrulewidth}{1pt}
-\rhead{\footnotesize \textsc {Trabajo práctico 1\\ Teoría de Algoritmos}} % Trabajo práctico
+\rhead{\footnotesize \textsc {Trabajo práctico 1 \\ Teoría de Algoritmos}} % Trabajo práctico
 \lhead{\includegraphics[width=2.5cm]{logo}}
 \cfoot{\small \textsc {Página \thepage\ de \pageref*{LastPage}}}
 
@@ -111,9 +111,9 @@
         \begin{tabular}{ |  l  |  l  |  l  | } % Datos del alumno
       \hline
         Nombre & Padrón \\ \hline
-        Martin Alejo Polese  & 106808\\ \hline
-        Nicolas Agustin Riedel & 102130\\ \hline
         Denise Dall'Acqua & 108645\\ \hline
+        Martín Alejo Polese  & 106808\\ \hline
+        Nicolás Agustín Riedel & 102130\\ \hline
   	\end{tabular}
         }
           \vskip0.5cm
