@@ -4,8 +4,8 @@ TP1 de la materia: Teoría de Algoritmos.
 
 ## Integrantes
 
-- Martin Alejo Polese - 106808
 - Denise Dall'Acqua - 108645
+- Martin Alejo Polese - 106808
 - Nicolas Agustin Riedel - 102130
 
 ## Informe
