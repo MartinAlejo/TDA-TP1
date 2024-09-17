@@ -9,7 +9,8 @@ TP1 de la materia: Teoría de Algoritmos.
 - Nicolas Agustin Riedel - 102130
 
 ## Informe
-El informe del trabajo se puede encontrar [en este repositorio](./Informe.pdf).
+
+El informe del trabajo se encuentra [acá](./Informe.pdf).
 
 ## Ejecución
 
@@ -17,7 +18,7 @@ Para correr el programa, se debe ejecutar el siguiente comando sobre el director
 
 ```python3 main.py <path>```
 
-Donde **path** es la ruta a un archivo csv, cuya primer linea tiene las monedas de la fila separadas por ';'.
+Donde **path** es la ruta a un archivo csv, cuya primer linea tiene las monedas de la fila separadas por `;`.
 
 ***Ejemplo***: ```python3 main.py ./ejemplos/20.txt```
 

@@ -10,7 +10,7 @@ A continuación, se detallará el paso a paso de la demostración que hemos real
 
 \vskip0.5cm
 
-{\large{Sophia siempre ganas las partidas, por lo tanto también el juego}} 
+{\large{Sophia siempre gana las partidas, por lo tanto también el juego}}.
 \vskip0.5cm
 Utilizamos el método por inducción:
 \vskip0.5cm
@@ -27,7 +27,7 @@ $valorSophiaMonedas=M_{1}$
 
 $valorMateoMonedas=0$
 
-Gana Sofia ya que siempre el primer turno es para ella, y solo hay una moneda.
+Gana Sophia ya que siempre el primer turno es para ella, y solo hay una moneda.
 
 \vskip1cm
 
@@ -71,7 +71,7 @@ $valorSophiaMonedas=M_{1}+M_{2}$
 $valorMateoMonedas=M_{4}+M_{3}$
 
 Sophia agarra $M_{1}$ al ser la mas grande en comparación a $M_{4}$; Mateo agarra la moneda $M_{4}$ al ser la mas 
-pequeña entre $M_{4}$ y $M_{2}$; Sophia agarra $M_{2}$ y por último por descarte Mateo se queda con la moneda $M_{3}$.
+pequeña entre $M_{4}$ y $M_{2}$; Sophia agarra $M_{2}$ y por último (por descarte) Mateo se queda con la moneda $M_{3}$.
 Gana Sophia por tener el mayor valor de monedas.
 
 \vskip1cm
@@ -84,9 +84,9 @@ No podemos establecer quien es mayor/menor al haber k valores, ya que en la fila
 Para poder analizarlo vamos a hacer una función partida para ver cuales son nuestras opciones para cada uno:
 
 $ValorSophiaTurno= \left\{ \begin{array}{lcc} M_{k} & si & M_{k}>M_{1} , ValorMateoTurno= \left\{ \begin{array}{lcc} M_{k-1} & si & M_{k-1}<M_{1} \\ \\ M_{1} & si & M_{k-1} > M_{1} \end{array} \right. \\ \\ M_{1} & si & M_{k} < M_{1}, ValorMateoTurno= \left\{ \begin{array}{lcc} M_{2} & si & M_{2}<M_{k} \\ \\ M_{k} & si & M_{k} < M_{2} \end{array} \right. \end{array} \right.$
-
+\vskip0.3cm
 En consecuencia del turno de Sofía, Mateo va a tener 2 posibilidad por cada elección.
-\vskip1cm
+\vskip0.7cm
 Como podemos observar, siempre hay un patrón: Si los turnos empezaran desde el 0, Sophia siempre tiene los turnos pares
 ,en los cuales agarra siempre el valor de moneda más grande, y Mateo tiene los turno impares donde agarra el valor los valores más pequeños.
 
@@ -99,9 +99,9 @@ $valorSophiaTotal =  \sum_{k=1}^{n}M_{k}$ siendo $\left\{ \begin{array}{lcc} k=i
 $valorMateoTotal =  \sum_{k=1}^{n}M_{k}$ siendo $\left\{ \begin{array}{lcc} k=i_{inicial\_actual} & si & i_{inicial\_actual}<j_{final\_actual} \\ \\ k=j_{final\_actual} & si & i_{inicial\_actual}>j_{final\_actual} \end{array} \right.$
 
 \vskip0.5cm
-NOTA: $i_{inicial\_actual}$ es el principio de nuestra fila de monedas por turnos, y $j_{final\_actual}$ en el final de nuestra fila por turnos 
-\vskip1cm
-Y para corroborar que nadie está haciendo trampa:
+\textbf{Nota}: $i_{inicial\_actual}$ es el principio de nuestra fila de monedas por turnos, y $j_{final\_actual}$ en el final de nuestra fila por turnos 
+\vskip0.8cm
+Y para corroborar que nadie está haciendo trampa, se debe cumplir que:
 \vskip0.5cm
 \begin{center}
     $valorTotalDeMonedas=valorSophiaTotal+valorMateoTotal$
