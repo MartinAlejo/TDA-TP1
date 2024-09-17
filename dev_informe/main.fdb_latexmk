@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber main"] 1726544289 "main.bcf" "main.bbl" "main" 1726544935
-  "main.bcf" 1726544934 106594 d0a4d0e1c136c0a864bb82402f3a8ea5 "pdflatex"
+["biber main"] 1726544289 "main.bcf" "main.bbl" "main" 1726545192
+  "main.bcf" 1726545192 106594 d0a4d0e1c136c0a864bb82402f3a8ea5 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1726544933 "/home/riedel/FIUBA/TDA-TP1/informe/main.tex" "main.pdf" "main" 1726544935
+["pdflatex"] 1726545190 "/home/riedel/FIUBA/TDA-TP1/informe/main.tex" "main.pdf" "main" 1726545192
   "/etc/texmf/web2c/texmf.cnf" 1717213440 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/riedel/FIUBA/TDA-TP1/informe/main.tex" 1726544387 2615 01aabc6df2e873197802c0cbc46330cd ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -34,7 +34,6 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1248133631 31809 8670ca339bf94e56da1fc21c80635e2a ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -247,17 +246,17 @@
   "images/ejemplo_ejecucion_6_monedas.png" 1726538051 29151 03929390b2064a9eab7bec2fedcf8ca0 ""
   "images/tiempoDeEjec.png" 1726538051 26155 a31f50d0bf04f1085eff1a47163b9399 ""
   "logo.pdf" 1725968125 23517 55dcbdbcb3a7201e9413943da9c8afa3 ""
-  "main.atfi" 1726544934 23 33e109ecf84d2ac55814cb2442ea01dc "pdflatex"
-  "main.aux" 1726544934 1911 de4c463ad123aaf673bd4c7d7ffab8a7 "pdflatex"
+  "main.atfi" 1726545192 23 33e109ecf84d2ac55814cb2442ea01dc "pdflatex"
+  "main.aux" 1726545192 1911 de4c463ad123aaf673bd4c7d7ffab8a7 "pdflatex"
   "main.bbl" 1726544290 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
-  "main.out" 1726544934 1203 70b4b3520fb1796e6fb03a20ac87630d "pdflatex"
-  "main.run.xml" 1726544934 2274 3c9efbcb7467da793e6933a55675e6bc "pdflatex"
+  "main.out" 1726545192 1203 70b4b3520fb1796e6fb03a20ac87630d "pdflatex"
+  "main.run.xml" 1726545192 2274 3c9efbcb7467da793e6933a55675e6bc "pdflatex"
   "main.tex" 1726544387 2615 01aabc6df2e873197802c0cbc46330cd ""
-  "main.toc" 1726544934 597 618db5c33efa7b5fceb1af4028b31f0d "pdflatex"
+  "main.toc" 1726545192 597 618db5c33efa7b5fceb1af4028b31f0d "pdflatex"
   "tex/algoritmos.tex" 1726538051 996 bf07e5c7abe32ad86b563d514763f32b ""
   "tex/complejidad.tex" 1726544755 2264 f5372ea9663bf9968236cee1f7c5a0a2 ""
   "tex/conclusiones.tex" 1726538051 990 1e239339a9387bcfd132c8ad65b16681 ""
-  "tex/consigna.tex" 1725968125 2917 82896a45201c667961ff4166b437c1f6 ""
+  "tex/consigna.tex" 1726545189 3028 598eee40b36a2cddecabe179105a0c0d ""
   "tex/demostracion.tex" 1726538051 3908 1d42c21bef850e0b231aa47e855cf5f1 ""
   "tex/ejemplosDeSolucion.tex" 1726538051 1769 06ee35f421cfecff3b4763dddbe0df20 ""
   "tex/medicionEmpirica.tex" 1726538051 1042 4cea03e38329fc8cffd13fc838e31db3 ""

@@ -8,6 +8,9 @@ TP1 de la materia: Teoría de Algoritmos.
 - Denise Dall'Acqua - 108645
 - Nicolas Agustin Riedel - 102130
 
+## Informe
+El informe del trabajo se puede encontrar [en este repositorio](./Informe.pdf)
+
 ## Ejecución
 
 Para correr el programa, se debe ejecutar el siguiente comando sobre el directorio raíz:
