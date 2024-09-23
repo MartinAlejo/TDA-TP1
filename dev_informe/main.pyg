@@ -1,0 +1,32 @@
+    def juego_monedas(monedas):
+        turno = 0 # Los turnos pares son de Sophia, los impares de Mateo
+        i = 0
+        j = len(monedas) - 1
+
+        acum_sophia = 0
+        acum_mateo = 0
+        movimientos = []
+        while not (i > j):
+            primera_moneda = monedas[i]
+            ultima_moneda = monedas[j]
+            if turno % 2 == 0:
+                if primera_moneda > ultima_moneda:
+                    acum_sophia += primera_moneda
+                    i += 1
+                    movimientos.append("Primera moneda para Sophia")
+                else:
+                    acum_sophia += ultima_moneda
+                    j -= 1
+                    movimientos.append("Ultima moneda para Sophia")
+            else:
+                if primera_moneda < ultima_moneda:
+                    acum_mateo += primera_moneda
+                    i += 1
+                    movimientos.append("Primera moneda para Mateo")
+                else:
+                    acum_mateo += ultima_moneda
+                    j -= 1
+                    movimientos.append("Ultima moneda para Mateo")
+            turno += 1
+
+        return movimientos, acum_sophia, acum_mateo
