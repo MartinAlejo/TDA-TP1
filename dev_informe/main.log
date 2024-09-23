@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.9.14)  17 SEP 2024 12:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.9.14)  23 SEP 2024 14:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1252,7 +1252,9 @@ Package fancyhdr Warning: \headheight is too small (27.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49297pt}.
 
-[6 <./images/IMG_1629.jpg>]) (./tex/variabilidad.tex
+[6 <./images/IMG_1629.jpg>] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)) (./tex/variabilidad.tex
 File: logo.pdf Graphic file (type pdf)
 <use logo.pdf>
 Package pdftex.def Info: logo.pdf  used on input line 4.
@@ -1266,7 +1268,7 @@ Package fancyhdr Warning: \headheight is too small (27.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49297pt}.
 
 [7]) (./tex/ejemplosDeSolucion.tex
-<./images/ejemplo_ejecucion_6_monedas.png, id=110, 963.6pt x 102.3825pt>
+<./images/ejemplo_ejecucion_6_monedas.png, id=145, 963.6pt x 102.3825pt>
 File: ./images/ejemplo_ejecucion_6_monedas.png Graphic file (type png)
 <use ./images/ejemplo_ejecucion_6_monedas.png>
 Package pdftex.def Info: ./images/ejemplo_ejecucion_6_monedas.png  used on input line 39.
@@ -1276,7 +1278,7 @@ Overfull \hbox (21.82465pt too wide) in paragraph at lines 39--40
 [][] 
  []
 
-<./images/ejemplo_ejecucion_20_monedas.png, id=112, 965.6075pt x 155.58125pt>
+<./images/ejemplo_ejecucion_20_monedas.png, id=147, 965.6075pt x 155.58125pt>
 File: ./images/ejemplo_ejecucion_20_monedas.png Graphic file (type png)
 <use ./images/ejemplo_ejecucion_20_monedas.png>
 Package pdftex.def Info: ./images/ejemplo_ejecucion_20_monedas.png  used on input line 43.
@@ -1298,7 +1300,7 @@ Package fancyhdr Warning: \headheight is too small (27.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49297pt}.
 
 [8 <./images/ejemplo_ejecucion_6_monedas.png> <./images/ejemplo_ejecucion_20_monedas.png>]
-<./images/ejemplo_ejecucion_100_monedas.png, id=128, 965.6075pt x 157.58875pt>
+<./images/ejemplo_ejecucion_100_monedas.png, id=161, 965.6075pt x 157.58875pt>
 File: ./images/ejemplo_ejecucion_100_monedas.png Graphic file (type png)
 <use ./images/ejemplo_ejecucion_100_monedas.png>
 Package pdftex.def Info: ./images/ejemplo_ejecucion_100_monedas.png  used on input line 47.
@@ -1309,12 +1311,12 @@ Overfull \hbox (22.72801pt too wide) in paragraph at lines 47--48
  []
 
 ) (./tex/medicionEmpirica.tex
-<images/tiempoDeEjec.png, id=129, 406.8801pt x 328.8285pt>
+<images/tiempoDeEjec.png, id=162, 406.8801pt x 328.8285pt>
 File: images/tiempoDeEjec.png Graphic file (type png)
 <use images/tiempoDeEjec.png>
 Package pdftex.def Info: images/tiempoDeEjec.png  used on input line 8.
 (pdftex.def)             Requested size: 244.12994pt x 197.29861pt.
-<images/cuadradosMinimos.png, id=130, 406.8801pt x 328.8285pt>
+<images/cuadradosMinimos.png, id=163, 406.8801pt x 328.8285pt>
 File: images/cuadradosMinimos.png Graphic file (type png)
 <use images/cuadradosMinimos.png>
 Package pdftex.def Info: images/cuadradosMinimos.png  used on input line 16.
@@ -1358,18 +1360,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36264 strings out of 478287
- 681406 string characters out of 5849289
- 1500613 words of memory out of 5000000
- 53801 multiletter control sequences out of 15000+600000
- 475594 words of font info for 52 fonts, out of 8000000 for 9000
+ 36485 strings out of 478287
+ 684001 string characters out of 5849289
+ 1802613 words of memory out of 5000000
+ 53979 multiletter control sequences out of 15000+600000
+ 478395 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,16n,105p,770b,1855s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (10 pages, 610712 bytes).
+ 103i,16n,105p,977b,1855s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (10 pages, 605179 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
+ 256 PDF objects out of 1000 (max. 8388607)
+ 193 compressed objects within 2 object streams
+ 68 named destinations out of 1000 (max. 500000)
  124 words of extra memory for PDF output out of 10000 (max. 10000000)
 
