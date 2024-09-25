@@ -1,4 +1,5 @@
-\section{Demostración del Algortimo}
+\section{Demostración del Algortimo} 
+\label{ch:demostracion}
 
 El algortimo desarrollado anteriormente nos afirma que nos va a dar la solución óptima,
 osea que Sophia gana todas las partidas de su nuevo juego, no importa el orden de los valores
@@ -8,14 +9,18 @@ de las monedas, dejando a Mateo como el perdedor tanto de cada ronda como del ju
 
 A continuación, se detallará el paso a paso de la demostración que hemos realizado para afirmar la teoría:
 
+
+\textbf{Nota:} En el transcurso de la demostración se aclararán algunos términos, por ejemplo variables utilizadas, para su mejor comprensión.
 \vskip0.5cm
 
-{\large{Sophia siempre gana las partidas, por lo tanto también el juego}}.
+Sophia siempre gana las partidas, por lo tanto también el juego.
+
 \vskip0.5cm
 Utilizamos el método por inducción:
 \vskip0.5cm
 
-Siendo $n$ la cantidad de monedas:
+Siendo $n$ la cantidad de monedas y $M_{i}$ el valor de la moneda:
+
 \vskip0.5cm
 
 Si $n=1$ 
@@ -91,6 +96,8 @@ Como podemos observar, siempre hay un patrón: Si los turnos empezaran desde el 
 
 \vskip0.5cm
 
+Es decir, el total de monedas que Sophia acumuló y las que Mateo acumuló las podemos representar como:
+
 \vskip0.5cm
 $valorSophiaTotal =  \sum_{k=1}^{n}M_{k}$ siendo $\left\{ \begin{array}{lcc} k=i_{inicial\_actual} & si & i_{inicial\_actual}>j_{final\_actual} \\ \\ k=j_{final\_actual} & si & i_{inicial\_actual}<j_{final\_actual} \end{array} \right.$
 
@@ -100,6 +107,9 @@ $valorMateoTotal =  \sum_{k=1}^{n}M_{k}$ siendo $\left\{ \begin{array}{lcc} k=i_
 \vskip0.5cm
 \textbf{Nota}: $i_{inicial\_actual}$ es el principio de nuestra fila de monedas por turnos, y $j_{final\_actual}$ en el final de nuestra fila por turnos 
 \vskip0.8cm
+El resultado nos demuestra de que no hay forma en la que Sophie termine perdiendo si aplicamos el algoritmo propuesto.
+\vskip0.5cm
+
 Y para corroborar que nadie está haciendo trampa, se debe cumplir que:
 \vskip0.5cm
 \begin{center}
